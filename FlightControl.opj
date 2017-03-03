@@ -1,0 +1,251 @@
+(ExpressProject "FlightControl"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\flightcontrol.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\flightcontrol.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    (Board_sim_option "VHDL_flow")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "3")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (IREFReportFile "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.csv")
+    (IREFViewOutput "0")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File
+       "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File"
+       "F:\Cadence Boards\STM32F7-FlightControl\board\fc.brd")
+    ("Allegro Backannotation Netlist Directory" "allegro")
+    ("Allegro Backannotation Output File" "allegro\FLIGHTCONTROL.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE")
+    ("Allegro Setup Configuration File"
+       "E:\Cadence\SPB_16.6\tools/capture/allegro.cfg")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "FALSE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name
+       "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.SWP")
+    (Backannotation_TAB "0"))
+  (Folder "Outputs"
+    (File ".\flightcontrol.csv"
+      (Type "Report"))
+    (File ".\flightcontrol.bom"
+      (Type "Report"))
+    (File ".\flightcontrol.drc"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\allegro\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\allegro\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\allegro\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\allegro\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File ".\allegro\flightcontrol.swp"
+      (Type "Report")
+      (DisplayName "FLIGHTCONTROL.swp")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\flightcontrol.dsn")
+      (Path "Design Resources" ".\flightcontrol.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources" ".\flightcontrol.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 351"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1190 25 292")
+        (Scroll "-143 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\BOARD\BK\FLIGHTCONTROL.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "01-Power")))
+  (PartMRUSelector
+    ("HEADER 3"
+      (FullPartName "HEADER 3.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4"
+      (FullPartName "HEADER 4.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (magnetometer
+      (FullPartName "magnetometer.Normal")
+      (LibraryName "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.OLB")
+      (DeviceIndex "0"))
+    (molex_microsd
+      (FullPartName "molex_microsd.Normal")
+      (LibraryName "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.OLB")
+      (DeviceIndex "0"))
+    (RC_IN
+      (FullPartName "RC_INB.Normal")
+      (LibraryName "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.OLB")
+      (DeviceIndex "1"))
+    ("T POINT R"
+      (FullPartName "T POINT R.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 10"
+      (FullPartName "HEADER 10.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (FUSE
+      (FullPartName "FUSE.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DIODE_DUAL_CK_AAJ
+      (FullPartName "DIODE_DUAL_CK_AAJ.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MIC5332-3.3/3.3YMT
+      (FullPartName "MIC5332-3.3/3.3YMT.Normal")
+      (LibraryName "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.OLB")
+      (DeviceIndex "0"))
+    (TPS54335ADDAR
+      (FullPartName "TPS54335ADDAR.Normal")
+      (LibraryName "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MX25L51245G
+      (FullPartName "MX25L51245G.Normal")
+      (LibraryName "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.OLB")
+      (DeviceIndex "0"))
+    ("DIODE BI-DIR TRIG"
+      (FullPartName "DIODE BI-DIR TRIG.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 6"
+      (FullPartName "HEADER 6.Normal")
+      (LibraryName "E:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (TXS0108ERGYR
+      (FullPartName "TXS0108ERGYR.Normal")
+      (LibraryName "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.OLB")
+      (DeviceIndex "0"))
+    (TCA62724FMG
+      (FullPartName "TCA62724FMG.Normal")
+      (LibraryName "F:\CADENCE BOARDS\STM32F7-FLIGHTCONTROL\FLIGHTCONTROL.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "WZY")
+  (LastUsedLibraryBrowseDirectory "F:\Cadence Boards\STM32F4-NETRADIO")
+  (ISPCBBASICLICENSE "false"))
